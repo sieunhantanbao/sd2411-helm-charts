@@ -3,7 +3,7 @@ entries:
   my-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-10-10T04:13:52.049281938Z"
+    created: "2023-10-10T04:16:00.536324244Z"
     description: A Helm chart for Kubernetes
     digest: c0bedb38b46a492e45cb33d2ff987352d10796fc6f648246db1ef405564c6c87
     name: my-chart
@@ -11,4 +11,4 @@ entries:
     urls:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/my-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-10-10T04:13:52.048259227Z"
+generated: "2023-10-10T04:16:00.535669037Z"
