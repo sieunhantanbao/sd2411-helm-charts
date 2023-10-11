@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   backend:
   - apiVersion: v2
-    created: "2023-10-11T11:54:22.8821437+07:00"
+    created: "2023-10-11T15:07:03.6434939+07:00"
     description: A Helm chart backend Kubernetes
     digest: 7a2ec0c649e8b4f1c86d22def1927a115794ad6f8a96b635e2f2ea7983e2c0f9
     name: backend
@@ -11,7 +11,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/backend-3.0.1.tgz
     version: 3.0.1
   - apiVersion: v2
-    created: "2023-10-11T11:54:22.8821437+07:00"
+    created: "2023-10-11T15:07:03.6428732+07:00"
     description: A Helm chart backend Kubernetes
     digest: cfa746a20b634df29cf8e15fbc6eee8f88acc8ad16881d0c72f66e0f085a5a81
     name: backend
@@ -20,7 +20,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/backend-3.0.0.tgz
     version: 3.0.0
   - apiVersion: v2
-    created: "2023-10-11T11:54:22.881533+07:00"
+    created: "2023-10-11T15:07:03.6428732+07:00"
     description: A Helm chart for Kubernetes
     digest: 49ff18b2adf8554fe9da26bbac7b39b7c79399633e0cd74b018154603d076a6e
     name: backend
@@ -29,7 +29,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/backend-2.0.0.tgz
     version: 2.0.0
   - apiVersion: v2
-    created: "2023-10-11T11:54:22.881533+07:00"
+    created: "2023-10-11T15:07:03.642258+07:00"
     description: A Helm chart for Kubernetes
     digest: cb322eb28c15ebf0889cb431c29a099ad8bfb2c4548a86bffc0f9a072af3c4f3
     name: backend
@@ -38,7 +38,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/backend-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v2
-    created: "2023-10-11T11:54:22.8802473+07:00"
+    created: "2023-10-11T15:07:03.642258+07:00"
     description: A Helm chart for Kubernetes
     digest: f401a9e40ac8e801557d4a962564925ff4746fe3c856d67e6b5e9a69123b9c30
     name: backend
@@ -48,7 +48,16 @@ entries:
     version: 0.1.0
   frontend:
   - apiVersion: v2
-    created: "2023-10-11T11:54:22.8961726+07:00"
+    created: "2023-10-11T15:07:03.6595075+07:00"
+    description: A Helm chart for frontend Kubernetes
+    digest: bc8671982c0483642802cf49c903b6c5938410364b44be37278417e851408f53
+    name: frontend
+    type: application
+    urls:
+    - https://sieunhantanbao.github.io/sd2411-helm-charts/frontend-3.0.2.tgz
+    version: 3.0.2
+  - apiVersion: v2
+    created: "2023-10-11T15:07:03.6585093+07:00"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -61,7 +70,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/frontend-3.0.1.tgz
     version: 3.0.1
   - apiVersion: v2
-    created: "2023-10-11T11:54:22.8925799+07:00"
+    created: "2023-10-11T15:07:03.6541592+07:00"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -74,7 +83,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/frontend-3.0.0.tgz
     version: 3.0.0
   - apiVersion: v2
-    created: "2023-10-11T11:54:22.889806+07:00"
+    created: "2023-10-11T15:07:03.6510396+07:00"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -87,7 +96,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/frontend-2.0.0.tgz
     version: 2.0.0
   - apiVersion: v2
-    created: "2023-10-11T11:54:22.8870123+07:00"
+    created: "2023-10-11T15:07:03.6485041+07:00"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -100,7 +109,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/frontend-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v2
-    created: "2023-10-11T11:54:22.882648+07:00"
+    created: "2023-10-11T15:07:03.6434939+07:00"
     description: A Helm chart for Kubernetes
     digest: 7a67e32f74dabec5415183d441ef053590e0b14bec5d2d96a273b58c662bf27b
     name: frontend
@@ -110,7 +119,7 @@ entries:
     version: 0.1.0
   mongodb:
   - apiVersion: v2
-    created: "2023-10-11T11:54:22.8967155+07:00"
+    created: "2023-10-11T15:07:03.6595075+07:00"
     description: A Helm chart for Kubernetes
     digest: a98c576f3bcb8212c944e8a71bf1f544470661e87159a16dfe2205a496b15ad7
     name: mongodb
@@ -119,7 +128,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/mongodb-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v2
-    created: "2023-10-11T11:54:22.8967155+07:00"
+    created: "2023-10-11T15:07:03.6595075+07:00"
     description: A Helm chart for Kubernetes
     digest: 05ea421a3c0b0336e14c62279b1612dd7b53208b07923e3c6dcb9c69dcdb3d22
     name: mongodb
@@ -127,4 +136,4 @@ entries:
     urls:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/mongodb-0.1.0.tgz
     version: 0.1.0
-generated: "2023-10-11T11:54:22.8795384+07:00"
+generated: "2023-10-11T15:07:03.6416269+07:00"

@@ -9,4 +9,4 @@ spec:
     - port: {{ .Values.servicePort }}
       protocol: TCP
       targetPort: {{ .Values.servicePort }}
-  type: ClusterIP
+  type: LoadBalancer
