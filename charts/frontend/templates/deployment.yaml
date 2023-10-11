@@ -18,5 +18,12 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - containerPort: {{ .Values.servicePort }}
+          env:
+            {{- if .Values.env.normal -}}
+            {{- range .Values.env.normal }}
+              - name: {{ .name }}
+                value: {{ .value | quote }}
+            {{- end -}}
+            {{- end }}
       imagePullSecrets:
         - name: {{ .Values.image.imagePullSecret }}

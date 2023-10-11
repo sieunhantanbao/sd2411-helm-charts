@@ -4,4 +4,4 @@ description: A Helm chart backend Kubernetes
 
 type: application
 
-version: 3.0.1
+version: 0.2.0
