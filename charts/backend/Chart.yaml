@@ -1,7 +1,7 @@
 apiVersion: v2
 name: backend
-description: A Helm chart for Kubernetes
+description: A Helm chart backend Kubernetes
 
 type: application
 
-version: 2.0.0
+version: 3.0.0

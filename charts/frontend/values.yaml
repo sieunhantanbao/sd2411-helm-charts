@@ -8,6 +8,8 @@ name: frontend
 image:
   repository: frontend
   tag: latest
+  pullPolicy: Always
+  imagePullSecret: my-secret
 
 # Port for the frontend service
 servicePort: 3000

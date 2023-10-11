@@ -8,6 +8,8 @@ name: backend
 image:
   repository: backend
   tag: latest
+  pullPolicy: Always
+  imagePullSecret: my-secret
 
 # Port for the backend service
 servicePort: 3000
