@@ -14,7 +14,6 @@ image:
 # Port for the frontend service
 servicePort: 80
 tls:
-  host: 'myhost.com'
   secretName: 'my-tls-secret'
 
 apiAddress: http://backend
