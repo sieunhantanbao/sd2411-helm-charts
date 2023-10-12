@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   backend:
   - apiVersion: v2
-    created: "2023-10-12T07:50:10.7416208+07:00"
+    created: "2023-10-12T08:17:45.7809225+07:00"
     description: A Helm chart backend Kubernetes
     digest: b25018cb5af0a24339793aab1568ba650ff1fca99b4455b7b2c16879ce497438
     name: backend
@@ -12,7 +12,7 @@ entries:
     version: 0.2.0
   frontend:
   - apiVersion: v2
-    created: "2023-10-12T07:50:10.7450338+07:00"
+    created: "2023-10-12T08:17:45.7840672+07:00"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -26,7 +26,16 @@ entries:
     version: 0.2.0
   postgresdb:
   - apiVersion: v2
-    created: "2023-10-12T07:50:10.7455659+07:00"
+    created: "2023-10-12T08:17:45.7857883+07:00"
+    description: A Helm chart for Kubernetes
+    digest: ce2ee79f6c4bdfaa30fe0b5d81cc9ab4732170906e40ceec842402f8b4c16096
+    name: postgresdb
+    type: application
+    urls:
+    - https://sieunhantanbao.github.io/sd2411-helm-charts/postgresdb-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
+    created: "2023-10-12T08:17:45.7846874+07:00"
     description: A Helm chart for Kubernetes
     digest: dc934c9d55eb1c275c468a108305925ca3787ca41051a4abf99aa83cd0684635
     name: postgresdb
@@ -35,7 +44,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/postgresdb-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v2
-    created: "2023-10-12T07:50:10.7450338+07:00"
+    created: "2023-10-12T08:17:45.7840672+07:00"
     description: A Helm chart for Kubernetes
     digest: 2891e97ad80bd93c7e431262ef7306525a4ccc79ec70e955d7dd60683cdced0b
     name: postgresdb
@@ -43,4 +52,4 @@ entries:
     urls:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/postgresdb-0.2.0.tgz
     version: 0.2.0
-generated: "2023-10-12T07:50:10.7411061+07:00"
+generated: "2023-10-12T08:17:45.7801829+07:00"
