@@ -8,6 +8,8 @@ spec:
   ingressClassName: nginx
   rules:
   - http:
+      hosts:
+      - {{ .Values.tls.host }}
       paths:
       - path: /
         pathType: Prefix
@@ -17,4 +19,6 @@ spec:
             port:
               number: {{ .Values.servicePort }}
   tls:
-    secretName: {{ .Values.tlssecretName }}
+    hosts:
+    - {{ .Values.tls.host }}
+    secretName: {{ .Values.tls.secretName }}
