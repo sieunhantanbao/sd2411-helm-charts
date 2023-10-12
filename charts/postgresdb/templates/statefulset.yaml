@@ -19,13 +19,6 @@ spec:
         image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
         ports:
           - containerPort: {{ .Values.servicePort }}
-        env:
-            {{- if .Values.env.normal -}}
-            {{- range .Values.env.normal }}
-              - name: {{ .name }}
-                value: {{ .value | quote }}
-            {{- end -}}
-            {{- end }}
         envFrom:
          - configMapRef:             
               name: {{ .Values.name }}
