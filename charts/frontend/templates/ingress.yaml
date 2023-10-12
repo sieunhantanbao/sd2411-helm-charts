@@ -16,3 +16,5 @@ spec:
             name: frontend
             port:
               number: {{ .Values.servicePort }}
+  tls:
+    secretName: {{ .Values.tlssecretName }}

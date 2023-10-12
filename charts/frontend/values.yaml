@@ -13,7 +13,7 @@ image:
 
 # Port for the frontend service
 servicePort: 80
-
+tlssecretName: 'my-tls-secret'
 env:
   normal:
     - name: ASPNETCORE_ENVIRONMENT
