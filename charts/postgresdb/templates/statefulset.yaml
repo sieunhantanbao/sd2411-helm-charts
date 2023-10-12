@@ -26,7 +26,7 @@ spec:
               name: {{ .Values.name }}
         volumeMounts:
             - name: data-volume
-              mountPath: /var/lib/postgresql/data
+              mountPath: /data
   volumeClaimTemplates:
     - metadata:
         name: data-volume
