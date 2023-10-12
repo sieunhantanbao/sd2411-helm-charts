@@ -7,18 +7,17 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - http:
-      hosts:
-      - {{ .Values.tls.host }}
-      paths:
-      - path: /
-        pathType: Prefix
-        backend:
-          service:
-            name: frontend
-            port:
-              number: {{ .Values.servicePort }}
+    - host: {{ .Values.tls.host }}
+      http:
+        paths:
+        - path: /
+          pathType: Prefix
+          backend:
+            service:
+              name: frontend
+              port:
+                number: {{ .Values.servicePort }}
   tls:
-    hosts:
-    - {{ .Values.tls.host }}
-    secretName: {{ .Values.tls.secretName }}
+    - hosts:
+      - {{ .Values.tls.host }}
+      secretName: {{ .Values.tls.secretName }}
