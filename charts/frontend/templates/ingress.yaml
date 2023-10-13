@@ -4,6 +4,7 @@ metadata:
   name: {{ .Values.name }}
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/enable-ssl-passthrough: "false"
 spec:
   ingressClassName: nginx
   rules:
