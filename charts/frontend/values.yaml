@@ -23,5 +23,9 @@ env:
   normal:
     - name: ASPNETCORE_ENVIRONMENT
       value: Development
+    - name: ENVIRONMENT_NAME
+      value: Test
+    - name: BUILD_ID
+      value: latest # should be same value with image.tag
     - name: ASPNETCORE_URLS
       value: https://+
