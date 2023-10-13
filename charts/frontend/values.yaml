@@ -3,7 +3,7 @@ replicaCount: 2
 
 # name of resources such as deployment, container, service
 name: frontend
-
+envName: test
 # Image repository and tag for the frontend container
 image:
   repository: frontend
