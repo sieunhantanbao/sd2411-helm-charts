@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   backend:
   - apiVersion: v2
-    created: "2023-10-13T17:43:11.0251865+07:00"
+    created: "2023-10-13T18:37:34.2689467+07:00"
     description: A Helm chart backend Kubernetes
     digest: 980c6fb78a1a546476d8ecb240782905b02ecf7ecbe1dc3f4e5408e2cc07f307
     name: backend
@@ -11,7 +11,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/backend-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
-    created: "2023-10-13T17:43:11.0251865+07:00"
+    created: "2023-10-13T18:37:34.2683504+07:00"
     description: A Helm chart backend Kubernetes
     digest: b25018cb5af0a24339793aab1568ba650ff1fca99b4455b7b2c16879ce497438
     name: backend
@@ -21,7 +21,16 @@ entries:
     version: 0.2.0
   frontend:
   - apiVersion: v2
-    created: "2023-10-13T17:43:11.0571666+07:00"
+    created: "2023-10-13T18:37:34.3015907+07:00"
+    description: A Helm chart for frontend Kubernetes
+    digest: e42f181dcbdef7d32e3969c2ea53af46c1c600ccd654c4f8cb79728a3c17cdef
+    name: frontend
+    type: application
+    urls:
+    - https://sieunhantanbao.github.io/sd2411-helm-charts/frontend-5.0.0.tgz
+    version: 5.0.0
+  - apiVersion: v2
+    created: "2023-10-13T18:37:34.3000998+07:00"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -34,7 +43,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/frontend-0.9.0.tgz
     version: 0.9.0
   - apiVersion: v2
-    created: "2023-10-13T17:43:11.0541725+07:00"
+    created: "2023-10-13T18:37:34.2971003+07:00"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -47,7 +56,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/frontend-0.8.0.tgz
     version: 0.8.0
   - apiVersion: v2
-    created: "2023-10-13T17:43:11.0523647+07:00"
+    created: "2023-10-13T18:37:34.2951007+07:00"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -60,7 +69,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/frontend-0.7.0.tgz
     version: 0.7.0
   - apiVersion: v2
-    created: "2023-10-13T17:43:11.0489254+07:00"
+    created: "2023-10-13T18:37:34.2921009+07:00"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -73,7 +82,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/frontend-0.6.0.tgz
     version: 0.6.0
   - apiVersion: v2
-    created: "2023-10-13T17:43:11.0461862+07:00"
+    created: "2023-10-13T18:37:34.2885916+07:00"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -86,7 +95,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/frontend-0.5.0.tgz
     version: 0.5.0
   - apiVersion: v2
-    created: "2023-10-13T17:43:11.0431845+07:00"
+    created: "2023-10-13T18:37:34.28546+07:00"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -99,7 +108,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/frontend-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v2
-    created: "2023-10-13T17:43:11.0406847+07:00"
+    created: "2023-10-13T18:37:34.2830146+07:00"
     description: A Helm chart for frontend Kubernetes
     digest: 81df2bb299ae40bdbf93ea00704044f6bf812410e831edcb3cad84653a8fe36a
     name: frontend
@@ -108,7 +117,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/frontend-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
-    created: "2023-10-13T17:43:11.0397568+07:00"
+    created: "2023-10-13T18:37:34.2824138+07:00"
     description: A Helm chart for frontend Kubernetes
     digest: 3a194c069d7be063e35a55091d90b52e082c2e8b7f966a6bb5899bc7e24425e7
     name: frontend
@@ -117,7 +126,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/frontend-0.2.5.tgz
     version: 0.2.5
   - apiVersion: v2
-    created: "2023-10-13T17:43:11.0392635+07:00"
+    created: "2023-10-13T18:37:34.2824138+07:00"
     description: A Helm chart for frontend Kubernetes
     digest: 5b4fa7346f8a365e220233ff184abb5a1b50297ed2c39155d64cd90975f40640
     name: frontend
@@ -126,7 +135,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/frontend-0.2.4.tgz
     version: 0.2.4
   - apiVersion: v2
-    created: "2023-10-13T17:43:11.0387671+07:00"
+    created: "2023-10-13T18:37:34.2818173+07:00"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -139,7 +148,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/frontend-0.2.3.tgz
     version: 0.2.3
   - apiVersion: v2
-    created: "2023-10-13T17:43:11.0352697+07:00"
+    created: "2023-10-13T18:37:34.2782156+07:00"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -152,7 +161,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/frontend-0.2.2.tgz
     version: 0.2.2
   - apiVersion: v2
-    created: "2023-10-13T17:43:11.0321834+07:00"
+    created: "2023-10-13T18:37:34.2758531+07:00"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -165,7 +174,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/frontend-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v2
-    created: "2023-10-13T17:43:11.0281843+07:00"
+    created: "2023-10-13T18:37:34.2732917+07:00"
     dependencies:
     - name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
@@ -179,7 +188,7 @@ entries:
     version: 0.2.0
   postgresdb:
   - apiVersion: v2
-    created: "2023-10-13T17:43:11.0590758+07:00"
+    created: "2023-10-13T18:37:34.3026206+07:00"
     description: A Helm chart for Kubernetes
     digest: cf0b6b1a09c6ad51abbd0d72c955f2965c1b0083c8199d4f5dd4cfaa01a5fe3a
     name: postgresdb
@@ -188,7 +197,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/postgresdb-0.2.5.tgz
     version: 0.2.5
   - apiVersion: v2
-    created: "2023-10-13T17:43:11.0581613+07:00"
+    created: "2023-10-13T18:37:34.3026206+07:00"
     description: A Helm chart for Kubernetes
     digest: edb4c935c5ce5ea3dec9c34d6edb129ed6f89a61ebc11507e6f380dac26063ea
     name: postgresdb
@@ -197,7 +206,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/postgresdb-0.2.4.tgz
     version: 0.2.4
   - apiVersion: v2
-    created: "2023-10-13T17:43:11.0581613+07:00"
+    created: "2023-10-13T18:37:34.3026206+07:00"
     description: A Helm chart for Kubernetes
     digest: 63c454e6bad2229c547cc72b51c8335b19adf3fe9c2e55b78242680e38d1b698
     name: postgresdb
@@ -206,7 +215,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/postgresdb-0.2.3.tgz
     version: 0.2.3
   - apiVersion: v2
-    created: "2023-10-13T17:43:11.0571666+07:00"
+    created: "2023-10-13T18:37:34.3026206+07:00"
     description: A Helm chart for Kubernetes
     digest: ce2ee79f6c4bdfaa30fe0b5d81cc9ab4732170906e40ceec842402f8b4c16096
     name: postgresdb
@@ -215,7 +224,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/postgresdb-0.2.2.tgz
     version: 0.2.2
   - apiVersion: v2
-    created: "2023-10-13T17:43:11.0571666+07:00"
+    created: "2023-10-13T18:37:34.3015907+07:00"
     description: A Helm chart for Kubernetes
     digest: dc934c9d55eb1c275c468a108305925ca3787ca41051a4abf99aa83cd0684635
     name: postgresdb
@@ -224,7 +233,7 @@ entries:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/postgresdb-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v2
-    created: "2023-10-13T17:43:11.0571666+07:00"
+    created: "2023-10-13T18:37:34.3015907+07:00"
     description: A Helm chart for Kubernetes
     digest: 2891e97ad80bd93c7e431262ef7306525a4ccc79ec70e955d7dd60683cdced0b
     name: postgresdb
@@ -232,4 +241,4 @@ entries:
     urls:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/postgresdb-0.2.0.tgz
     version: 0.2.0
-generated: "2023-10-13T17:43:11.0246859+07:00"
+generated: "2023-10-13T18:37:34.2677366+07:00"
