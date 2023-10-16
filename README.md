@@ -12,11 +12,11 @@ List the charts in the repo
 
 Install the helm charts
 
-- Install database: `helm install frontend myhelmrepo/postgresdb`
+- Install database: `helm install -f mydatabase-values.yaml postgresdb myhelmrepo/postgresdb` ([Sample database values.yaml](https://github.com/sieunhantanbao/sd2411-helm-charts/blob/main/charts/postgresdb/values.yaml))
 
-- Install backend: `helm install frontend myhelmrepo/backend`
+- Install backend: `helm install -f mybackend-values.yaml backend myhelmrepo/backend` ([Sample backend values.yaml](https://github.com/sieunhantanbao/sd2411-helm-charts/blob/main/charts/backend/values.yaml))
 
-- Install frontend: `helm install frontend myhelmrepo/frontend`
+- Install frontend: `helm install -f myfrontend-values.yaml frontend myhelmrepo/frontend` ([Sample frontend values.yaml](https://github.com/sieunhantanbao/sd2411-helm-charts/blob/main/charts/frontend/values.yaml))
 
 ## Repositories
 | Chart | Link to chart | Version |Notes|
