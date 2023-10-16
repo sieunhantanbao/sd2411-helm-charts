@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SD2411 Helm Chart Repository</title>
+    <!-- Add Bootstrap CSS CDN link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>SD2411 Helm Chart Repository</h1>
+
+        <h2>Get started</h2>
+
+        <h5>Add this repository to Helm.</h5>
+        <ul>
+            <code>helm repo add myhelmrepo https://sieunhantanbao.github.io/sd2411-helm-charts/
+            </code>
+        </ul>
+
+        <h5>List the charts in the repo</h5>
+        <ul>
+            <code>helm search repo myhelmrepo
+            </code>
+        </ul>
+
+        <h5>Install the helm charts</h5>
+
+        <ul>Install database: <code>helm install -f mydatabase-values.yaml postgresdb myhelmrepo/postgresdb</code> (<a
+                href="https://github.com/sieunhantanbao/sd2411-helm-charts/blob/main/charts/postgresdb/values.yaml">Sample
+                database values.yaml</a>)</ul>
+
+        <ul>Install backend: <code>helm install -f mybackend-values.yaml backend myhelmrepo/backend</code> (<a
+                href="https://github.com/sieunhantanbao/sd2411-helm-charts/blob/main/charts/backend/values.yaml">Sample
+                backend values.yaml</a>)</ul>
+
+        <ul>Install frontend: <code>helm install -f myfrontend-values.yaml frontend myhelmrepo/frontend</code> (<a
+                href="https://github.com/sieunhantanbao/sd2411-helm-charts/blob/main/charts/frontend/values.yaml">Sample
+                frontend values.yaml</a>)</ul>
+
+        <h2>Repositories</h2>
+
+        <!-- Add Bootstrap table classes for improved styling -->
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Chart</th>
+                    <th>Link to chart</th>
+                    <th>Version</th>
+                    <th>Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>frontend</td>
+                    <td><a
+                            href="https://github.com/sieunhantanbao/sd2411-helm-charts/tree/main/charts/frontend">myhelmrepo/frontend</a>
+                    </td>
+                    <td>5.0.0</td>
+                    <td>No ingress controller</td>
+                </tr>
+                <tr>
+                    <td>frontend</td>
+                    <td><a
+                            href="https://github.com/sieunhantanbao/sd2411-helm-charts/tree/main/charts/frontend">myhelmrepo/frontend</a>
+                    </td>
+                    <td>0.8.0</td>
+                    <td>With ingress controller</td>
+                </tr>
+                <tr>
+                    <td>backend</td>
+                    <td><a
+                            href="https://github.com/sieunhantanbao/sd2411-helm-charts/tree/main/charts/backend">myhelmrepo/backend</a>
+                    </td>
+                    <td>0.3.0</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>postgresdb</td>
+                    <td><a
+                            href="https://github.com/sieunhantanbao/sd2411-helm-charts/tree/main/charts/postgresdb">myhelmrepo/postgresdb</a>
+                    </td>
+                    <td>0.2.5</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Add Bootstrap JS and Popper.js CDN links if needed -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    -->
+</body>
+
+</html>
