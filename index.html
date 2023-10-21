@@ -27,8 +27,8 @@
 
         <h5>Install the helm charts</h5>
 
-        <ul>Install database: <code>helm install -f mydatabase-values.yaml postgresdb myhelmrepo/postgresdb</code> (<a
-                href="https://github.com/sieunhantanbao/sd2411-helm-charts/blob/main/charts/postgresdb/values.yaml">Sample
+        <ul>Install database: <code>helm install -f mydatabase-values.yaml mongo myhelmrepo/mongo</code> (<a
+                href="https://github.com/sieunhantanbao/sd2411-helm-charts/blob/main/charts/mongo/values.yaml">Sample
                 database values.yaml</a>)</ul>
 
         <ul>Install backend: <code>helm install -f mybackend-values.yaml backend myhelmrepo/backend</code> (<a
@@ -57,31 +57,23 @@
                     <td><a
                             href="https://github.com/sieunhantanbao/sd2411-helm-charts/tree/main/charts/frontend">myhelmrepo/frontend</a>
                     </td>
-                    <td>5.0.0</td>
+                    <td>1.0.0</td>
                     <td>No ingress controller</td>
-                </tr>
-                <tr>
-                    <td>frontend</td>
-                    <td><a
-                            href="https://github.com/sieunhantanbao/sd2411-helm-charts/tree/main/charts/frontend">myhelmrepo/frontend</a>
-                    </td>
-                    <td>0.8.0</td>
-                    <td>With ingress controller</td>
                 </tr>
                 <tr>
                     <td>backend</td>
                     <td><a
                             href="https://github.com/sieunhantanbao/sd2411-helm-charts/tree/main/charts/backend">myhelmrepo/backend</a>
                     </td>
-                    <td>0.3.0</td>
+                    <td>1.0.0</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>postgresdb</td>
+                    <td>mongo</td>
                     <td><a
-                            href="https://github.com/sieunhantanbao/sd2411-helm-charts/tree/main/charts/postgresdb">myhelmrepo/postgresdb</a>
+                            href="https://github.com/sieunhantanbao/sd2411-helm-charts/tree/main/charts/mongo">myhelmrepo/mongo</a>
                     </td>
-                    <td>0.2.5</td>
+                    <td>1.0.0</td>
                     <td></td>
                 </tr>
             </tbody>

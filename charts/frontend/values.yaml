@@ -3,29 +3,13 @@ replicaCount: 2
 
 # name of resources such as deployment, container, service
 name: frontend
-envName: test
+
 # Image repository and tag for the frontend container
 image:
-  repository: frontend
+  repository: sieunhantanbao/frontend
   tag: latest
   pullPolicy: Always
   imagePullSecret: my-secret
 
 # Port for the frontend service
 servicePort: 80
-tls:
-  host: 'myhost.com'
-  secretName: 'my-tls-secret'
-
-apiAddress: http://backend
-
-env:
-  normal:
-    - name: ASPNETCORE_ENVIRONMENT
-      value: Development
-    - name: ENVIRONMENT_NAME
-      value: Test
-    - name: BUILD_ID
-      value: latest # should be same value with image.tag
-    - name: ASPNETCORE_URLS
-      value: https://+

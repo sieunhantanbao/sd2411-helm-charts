@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: {{ .Values.name }}
 data:
-  ApiAddress: {{ .Values.apiAddress }}
+  MONGODB_INITDB_ROOT_USERNAME: {{ .Values.db_username }}

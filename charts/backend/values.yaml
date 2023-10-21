@@ -6,17 +6,10 @@ name: backend
 
 # Image repository and tag for the backend container
 image:
-  repository: backend
+  repository: sieunhantanbao/backend
   tag: latest
   pullPolicy: Always
   imagePullSecret: my-secret
 
 # Port for the backend service
 servicePort: 80
-connectionString: "Server=postgresdb;Database=TodoItem_DB;User Id=postgres;Password=postgres;"
-env:
-  normal:
-    - name: ASPNETCORE_ENVIRONMENT
-      value: Development
-    - name: ASPNETCORE_URLS
-      value: https://+
