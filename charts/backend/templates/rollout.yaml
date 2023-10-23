@@ -1,5 +1,5 @@
-apiVersion: apps/v1
-kind: Deployment
+apiVersion: argoproj.io/v1alpha1
+kind: Rollout
 metadata:
   name: {{ .Values.name }}
 spec:
@@ -20,3 +20,8 @@ spec:
             - containerPort: {{ .Values.servicePort }}
       imagePullSecrets:
         - name: {{ .Values.image.imagePullSecret }}
+  strategy:
+    bluegreen:
+      autoPromotionEnabled: false
+      activeService: {{ .Values.name }}
+      previewService: {{ .Values.name }}-preview
