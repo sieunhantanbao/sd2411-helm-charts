@@ -2,16 +2,16 @@ apiVersion: v1
 entries:
   backend:
   - apiVersion: v2
-    created: "2023-10-23T16:29:50.626514+07:00"
+    created: "2023-10-23T16:56:13.7741511+07:00"
     description: A Helm chart backend Kubernetes
-    digest: 214ba050cf71cd54add07c8ae696139ea5771a0a02e25762c0ee764ef4576f96
+    digest: efd6097e61ffb5b4be6e099a3b18601807d46f7f3d283bae50b9429f3baeaa75
     name: backend
     type: application
     urls:
-    - https://sieunhantanbao.github.io/sd2411-helm-charts/backend-2.0.0.tgz
-    version: 2.0.0
+    - https://sieunhantanbao.github.io/sd2411-helm-charts/backend-3.0.0.tgz
+    version: 3.0.0
   - apiVersion: v2
-    created: "2023-10-23T16:29:50.626514+07:00"
+    created: "2023-10-23T16:56:13.7736505+07:00"
     description: A Helm chart backend Kubernetes
     digest: 4aee0e0e9bd5eca7fb48e89c6cffe21fc08d1c3197a87cad48e7358450892b09
     name: backend
@@ -21,16 +21,16 @@ entries:
     version: 1.0.0
   frontend:
   - apiVersion: v2
-    created: "2023-10-23T16:29:50.6271242+07:00"
+    created: "2023-10-23T16:56:13.7746506+07:00"
     description: A Helm chart for frontend Kubernetes
-    digest: e04bdde2b98eb08948a490dca1b846b1a7f0be792df8eb22d1fa4ef43bcc1411
+    digest: a16f45d15e2175fb1ae24e2297e09f2df38feabfa67cb5599fed6a9b43150491
     name: frontend
     type: application
     urls:
-    - https://sieunhantanbao.github.io/sd2411-helm-charts/frontend-2.0.0.tgz
-    version: 2.0.0
+    - https://sieunhantanbao.github.io/sd2411-helm-charts/frontend-3.0.0.tgz
+    version: 3.0.0
   - apiVersion: v2
-    created: "2023-10-23T16:29:50.6271242+07:00"
+    created: "2023-10-23T16:56:13.7746506+07:00"
     description: A Helm chart for frontend Kubernetes
     digest: 64399154660cf9f9e59717869bd65cf618278a7e9c2023b49ce69f7574009901
     name: frontend
@@ -40,7 +40,7 @@ entries:
     version: 1.0.0
   mongo:
   - apiVersion: v2
-    created: "2023-10-23T16:29:50.6277315+07:00"
+    created: "2023-10-23T16:56:13.7751503+07:00"
     description: A Helm chart for Kubernetes
     digest: a99b9129cf76c4aebddf0de3ebb2cf534aa61f27f481dea6e2d7b28b0410a21a
     name: mongo
@@ -48,4 +48,4 @@ entries:
     urls:
     - https://sieunhantanbao.github.io/sd2411-helm-charts/mongo-1.0.0.tgz
     version: 1.0.0
-generated: "2023-10-23T16:29:50.6259024+07:00"
+generated: "2023-10-23T16:56:13.7736505+07:00"
