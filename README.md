@@ -29,7 +29,7 @@ Install the helm charts
 | Chart | Link to chart | Version |Notes|
 |--|--|--|--|
 |frontend|[myhelmrepo/frontend](https://github.com/sieunhantanbao/sd2411-helm-charts/tree/main/frontend-1.0.0.tgz) |1.0.0 ||
-|frontend|[myhelmrepo/frontend](https://github.com/sieunhantanbao/sd2411-helm-charts/tree/main/charts/frontend) |2.0.0 |Argo Rollout support|
+|frontend|[myhelmrepo/frontend](https://github.com/sieunhantanbao/sd2411-helm-charts/tree/main/charts/frontend) |3.0.0 |Argo Rollout support|
 |backend |[myhelmrepo/backend](https://github.com/sieunhantanbao/sd2411-helm-charts/tree/main/backend-1.0.0.tgz) |1.0.0 ||
-|backend |[myhelmrepo/backend](https://github.com/sieunhantanbao/sd2411-helm-charts/tree/main/charts/backend) |2.0.0 |Argo Rollout support|
+|backend |[myhelmrepo/backend](https://github.com/sieunhantanbao/sd2411-helm-charts/tree/main/charts/backend) |3.0.0 |Argo Rollout support|
 |mongo |[myhelmrepo/mongo](https://github.com/sieunhantanbao/sd2411-helm-charts/tree/main/charts/mongo)|1.0.0||
